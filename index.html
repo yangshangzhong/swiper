@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>swiper效果展示</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../../tools/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.css">
+    <!--<link rel="stylesheet" href="../../tools/animate.css">--><!--为优化代码，我们只将需要的动画效果复制到css文件中-->
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+<section class="main">
+    <!--Music-->
+    <div class="music" id="musicMenu"><audio id="musicAudio" src="测试练习/music/电音Sacrifice.mp3" preload="none" loop></audio></div>
+
+    <!--swiper-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide page1">
+                <img src="./image/page1-text1.png" alt="">
+                <img src="./image/page1-text2.png" alt="">
+                <img src="./image/page1-text3.png" alt="">
+                <img src="./image/page1-text4.png" alt="">
+            </div>
+            <div class="swiper-slide page2">
+                <img src="./image/page2-text1.png" alt="">
+                <img src="./image/page2-text2.png" alt="">
+                <img src="./image/page2-text3.png" alt="">
+                <img src="./image/page2-text4.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!--slide arrow 底部滑动箭头-->
+    <div class="arrow"></div>
+
+
+
+</section>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.js"></script>
+<script src="js/index.js"></script>
+</html>
